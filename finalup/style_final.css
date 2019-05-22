@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family:"Gotham";
+    src:url(gotham-cufonfonts/Gotham-Light.otf);
+}
+@font-face{
+    font-family:"Gotham-Light"
+    src:url(gotham-cufonfonts/Gotham-Light.otf);
+}
+@font-face{
+    font-family:"Myriad Pro"
+        src:url(myriad-pro-cufonfonts/MyriadPro-Light.otf)
+}
+html{
+    font-family:"Myriad Pro";
+    scroll-behavior: smooth;
+}
+
+body{
+    /*width: 75%*/
+    margin: 0 auto;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+
+
+.cicon{
+  width:130px;
+    height: 130px;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    border-radius: 50%;
+  background-color: whitesmoke;
+}
+
+.nav, .zagol, .feature{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ar{
+    justify-content: space-around;
+}
+
+.feature{
+    flex-flow: row;
+    align-self: center;
+    padding: 15px;
+    text-align: center;
+    align-items: center;
+}
+.ftext{
+    font-family: "Gotham-Light";
+    text-transform: uppercase;
+    text-align: center;
+    align-items: center;
+}
+
+.kolona{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding-bottom: 70px;
+}
+
+.zagol{
+    text-transform: uppercase;
+    padding:125px;
+    font-family: "Gotham-Bold";
+    flex-flow: column;
+    font-size: 70px;
+    color: white;
+    text-align:center;
+    align-items:center;
+    margin-bottom: 0;
+    background-image: url(./w.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+table, th, td {
+  border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+  padding: 15px;
+}
+.basics{
+    font-size: 15px;
+    width: 200px;
+    text-transform: none;
+    padding-top: 30px;
+    line-height: 1.5;
+    color: mediumpurple;
+}
+
+.button{
+    color: solid rebeccapurple;
+    flex-flow: row wrap;
+    text-decoration:none;
+    cursor:pointer;
+}
+.header {
+    width:100%;
+    background-image: url(./back.jpg);
+    background-size: auto;
+}
+.block1{
+    margin: 0 auto;
+     width:100%;
+}
+.block2{
+    margin: 0 auto;
+     width:80%;
+    padding-bottom: 100px;
+}
+.head2 {
+    width:100%;
+    background-size: auto;
+}
+
+
+.m{
+    margin:0 auto;
+    width: 80%;
+}
+
+.button:hover{
+    border-bottom: 5px solid rgb(255,255,255);
+}
